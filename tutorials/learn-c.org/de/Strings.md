@@ -4,7 +4,7 @@ Tutorial
 ### Strings definieren
 
 Strings in C sind eigentlich Arrays von Zeichen. Obwohl Zeiger in C ein fortgeschrittenes Thema ist, dass später behandelt wird, werden wir Zeiger 
-für unseren Zeichenarray benutzen. Und wzar folgendermaßen:
+für unseren Zeichenarray benutzen. Und zwar folgendermaßen:
 
     char * name = "John Smith";
 
@@ -15,7 +15,6 @@ Wollen wir einen String definieren, der auch verändert werden kann, müssen wir
 
 Diese Notation ist anders, da es eine Array Variable alloziert, die wir verändern können. Die leeren eckigen Klammern `[]` sagen dem Compiler, 
 dass er die benötigte Größe des Arrays automatisch berechnen soll. Das ist dasselbe, als wenn man die Größe explizit angeben würde (1 mehr als die Länge des Strings):
-the length of the string:
 
     char name[] = "John Smith";
     /* ist dasselbe wie */
@@ -35,7 +34,7 @@ Wir können die `printf` Funktion benutzen, um einen String mit anderen Strings 
     /* gibt 'John Smith ist 27 Jahre alt.' aus */
     printf("%s ist %d Jahre alt.\n", name, age);
 
-Beachte, dass wir beim ausgeben von Strings ein 'newline' Zeichen hinzufügen müssen, sodass der nächste `printf` Aufruf auf einer neuen Zeile anfängt.
+Beachte, dass wir beim Ausgeben von Strings ein 'newline' Zeichen hinzufügen müssen, sodass der nächste `printf` Aufruf auf einer neuen Zeile anfängt.
 
 ### String Vergleiche
 
